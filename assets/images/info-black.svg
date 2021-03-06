@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__information" width="13.553" height="13.553" viewBox="0 0 13.553 13.553">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#302e2e}
+        </style>
+    </defs>
+    <g id="prefix__Group_776" data-name="Group 776">
+        <g id="prefix__Group_775" data-name="Group 775">
+            <path id="prefix__Path_3395" d="M6.776 0a6.776 6.776 0 1 0 6.776 6.776A6.773 6.773 0 0 0 6.776 0zm0 12.649a5.873 5.873 0 1 1 5.873-5.873 5.88 5.88 0 0 1-5.873 5.873z" class="prefix__cls-1" data-name="Path 3395"/>
+        </g>
+    </g>
+    <g id="prefix__Group_778" data-name="Group 778" transform="translate(6.325 5.553)">
+        <g id="prefix__Group_777" data-name="Group 777">
+            <path id="prefix__Path_3396" d="M239.382 209.777a.452.452 0 0 0-.452.452v3.811a.452.452 0 1 0 .9 0v-3.811a.452.452 0 0 0-.448-.452z" class="prefix__cls-1" data-name="Path 3396" transform="translate(-238.93 -209.777)"/>
+        </g>
+    </g>
+    <g id="prefix__Group_780" data-name="Group 780" transform="translate(5.873 3.286)">
+        <g id="prefix__Group_779" data-name="Group 779">
+            <path id="prefix__Path_3397" d="M222.771 124.122a.9.9 0 1 0 .9.9.9.9 0 0 0-.9-.9z" class="prefix__cls-1" data-name="Path 3397" transform="translate(-221.867 -124.122)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,144 @@
+const logFileText = async file => {
+  return await fetch(file);
+};
+// var user_resp = $.parseJSON(existingData.user_resp);
+$(document).ready(function() {
+  //   $.getJSON("./assets/js/feedback.json", resp => {
+  fetch("./assets/json/feedback.json")
+    .then(promise => promise.json())
+    .then(json => {
+      var welcomeMessage = document.createElement("div");
+      var welcomeMessage_dom =
+        `<h5>Welcome back, ` +
+        json.welcomePerson +
+        `!</h5>
+          <p> Please answer the feedback related questions below to continue :</p>`;
+
+      welcomeMessage.innerHTML = welcomeMessage_dom;
+      $(welcomeMessage).appendTo("#welcomeMessage");
+
+      json.questionaire.forEach(el => {
+        var questions = document.createElement("div");
+        questions.className = "questionaire";
+
+        var child_1 = document.createElement("h5");
+        child_1.textContent = el.question;
+
+        var child_2 = document.createElement("div");
+        child_2.className = "starrate mt-3";
+        child_2.setAttribute("id", "starrate");
+        child_2.setAttribute("data-max", 5);
+
+        var span1 = document.createElement("span");
+        span1.className = "ctrl";
+
+        var span2 = document.createElement("span");
+        span2.className = "cont m-1";
+
+        var span2_child1 = document.createElement("span");
+        span2_child1.className = "ctrl-rate";
+        span2_child1.textContent = "Rate";
+
+        var child_i_1 = document.createElement("i");
+        child_i_1.className = "far fa-fw fa-star";
+
+        var child_i_2 = document.createElement("i");
+        child_i_2.className = "far fa-fw fa-star";
+
+        var child_i_3 = document.createElement("i");
+        child_i_3.className = "far fa-fw fa-star";
+
+        var child_i_4 = document.createElement("i");
+        child_i_4.className = "far fa-fw fa-star";
+
+        var child_i_5 = document.createElement("i");
+        child_i_5.className = "far fa-fw fa-star";
+
+        var child_span_1 = document.createElement("span");
+        child_span_1.className = "tooltips";
+        child_span_1.textContent = "Improve";
+
+        var child_span_2 = document.createElement("span");
+        child_span_2.className = "tooltips";
+        child_span_1.textContent = "Better";
+
+        var child_span_3 = document.createElement("span");
+        child_span_3.className = "tooltips";
+        child_span_1.textContent = "Satisfactory";
+
+        var child_span_4 = document.createElement("span");
+        child_span_4.className = "tooltips";
+        child_span_1.textContent = "Good";
+
+        var child_span_5 = document.createElement("span");
+        child_span_5.className = "tooltips";
+        child_span_1.textContent = "Excellent";
+
+        child_i_1.appendChild(child_span_1);
+        child_i_2.appendChild(child_span_2);
+        child_i_3.appendChild(child_span_3);
+        child_i_4.appendChild(child_span_4);
+        child_i_5.appendChild(child_span_5);
+
+        span2.append(
+          span2_child1,
+          child_i_1,
+          child_i_2,
+          child_i_3,
+          child_i_4,
+          child_i_5
+        );
+
+        child_2.append(span1, span2);
+
+        var child_3 = `<textarea placeholder="Enter suggestions..."></textarea>
+                        <div class="form-navigation">
+                            <button type="submit" class="btn-answer-later">Answer later</button>
+                            <button type="submit" class="button-submit">Submit</button>
+                        </div>`;
+
+        questions.append(child_1, child_2, child_3);
+        $(questions).appendTo("#feedbackQuestions");
+
+        var valueHover = 0;
+        function calcSliderPos(e, maxV) {
+          return e.offsetX / e.target.clientWidth * parseInt(maxV, 10);
+        }
+
+        $(".starrate").on("click", function() {
+          $(this).data("val", valueHover);
+          $(this).addClass("saved");
+        });
+        $(".starrate").on("mouseout", function() {
+          upStars($(this).data("val"));
+        });
+        $(".starrate span.ctrl").on("mousemove", function(e) {
+          var maxV = parseInt(
+            $(this)
+              .parent("div")
+              .data("max")
+          );
+          valueHover = Math.ceil(calcSliderPos(e, maxV) * 2) / 2;
+          upStars(valueHover);
+        });
+        function upStars(val) {
+          var val = parseInt(val);
+          //   $("#test").html(val.toFixed(1));
+          var full = Number.isInteger(val);
+          val = parseInt(val);
+          var stars = $("#starrate i");
+          stars.slice(0, val).attr("class", "fas fa-fw fa-star");
+          if (!full) {
+            stars.slice(val, val + 1).attr("class", "fas fa-fw fa-star");
+            val++;
+          }
+          stars.slice(val, 5).attr("class", "far fa-fw fa-star");
+        }
+
+        $(document).ready(function() {
+          $(".starrate span.ctrl").width("492px");
+          $(".starrate span.ctrl").height($(".starrate span.cont").height());
+        });
+      });
+    });
+});

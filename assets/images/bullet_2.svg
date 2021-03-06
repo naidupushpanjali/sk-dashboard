@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49">
+    <g id="prefix___2" data-name="2" transform="translate(-196 -1879)">
+        <g id="prefix__Ellipse_8" data-name="Ellipse 8" transform="translate(196 1879)" style="fill:#fff;stroke:#1d1d1b;stroke-width:2px">
+            <circle cx="24.5" cy="24.5" r="24.5" style="stroke:none"/>
+            <circle cx="24.5" cy="24.5" r="23.5" style="fill:none"/>
+        </g>
+        <circle id="prefix__Ellipse_9" cx="18.5" cy="18.5" r="18.5" data-name="Ellipse 9" transform="translate(206 1887)" style="fill:#dfc822;opacity:.5"/>
+        <text id="prefix___2-2" data-name="2" transform="translate(221 1909)" style="fill:#1d1d1b;font-size:19px;font-family:Poppins-SemiBold,Poppins SemiBold;font-weight:600">
+            <tspan x="-5.377" y="0">2</tspan>
+        </text>
+    </g>
+</svg>

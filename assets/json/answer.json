@@ -1,0 +1,28 @@
+{
+  "feedback": [
+    {
+      "customer_id": "",
+      "rating": "",
+      "feature_id": "",
+      "feedback": "",
+      "action": "",
+      "answer_later":false
+    },
+    {
+      "customer_id": "",
+      "rating": "",
+      "feature_id": "",
+      "feedback": "",
+      "action": "",
+      "answer_later":false
+    },
+    {
+      "customer_id": "",
+      "rating": "",
+      "feature_id": "",
+      "feedback": "",
+      "action": "",
+      "answer_later":false
+    }
+  ]
+}

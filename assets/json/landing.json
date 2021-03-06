@@ -1,0 +1,102 @@
+{
+  "feedbackSection": [
+    {
+      "id": "1",
+      "feedbackCount": 500,
+      "feedbackHeading": "Total no of feedback"
+    },
+    {
+      "id": "2",
+      "feedbackCount": 600,
+      "divisor": "5",
+      "infoIconRequired": true,
+      "feedbackHeading": "Average Rating"
+    },
+    {
+      "id": "3",
+      "feedbackCount": 700,
+      "feedbackHeading": "No of Ideas"
+    },
+    {
+      "id": "4",
+      "feedbackCount": 800,
+      "feedbackHeading": "Total no of feedback"
+    },
+    {
+      "id": "5",
+      "feedbackCount": 900,
+      "feedbackHeading": "Average Rating"
+    }
+  ],
+  "indicesSection": [
+    {
+      "id": "1",
+      "indicesHeading": "Indices 1",
+      "indicesSubHeading": "Loved by 60% of our Beta Testers",
+      "starRating": "2",
+      "indicesImageUrl": "./assets/images/Indices1.png"
+    },
+    {
+      "id": "2",
+      "indicesHeading": "Indices 2",
+      "indicesSubHeading": "Loved by 60% of our Beta Testers 2",
+      "starRating": "4",
+      "indicesImageUrl": "./assets/images/Indices1.png"
+    },
+    {
+      "id": "3",
+      "indicesHeading": "Indices 3",
+      "indicesSubHeading": "Loved by 60% of our Beta Testers 3",
+      "starRating": "5",
+      "indicesImageUrl": "./assets/images/Indices1.png"
+    },
+    {
+      "id": "4",
+      "indicesHeading": "Indices 4",
+      "indicesSubHeading": "Loved by 60% of our Beta Testers 4",
+      "starRating": "3",
+      "indicesImageUrl": "./assets/images/Indices1.png"
+    },
+    {
+      "id": "5",
+      "indicesHeading": "Indices 5",
+      "indicesSubHeading": "Loved by 60% of our Beta Testers 5",
+      "starRating": "1",
+      "indicesImageUrl": "./assets/images/Indices1.png"
+    }
+  ],
+  "projectNews": [
+    {
+      "id": "1",
+      "projectHeading":
+        "Project Leapp, Sharekhan’s unique discount broking platform",
+      "projectContent":
+        "Top 100 traders along with Sharekhan are co-curating Project Leapp, a new age discount broking platform",
+      "projectReadMoreUrl": "",
+      "projectImageUrl": "./assets/images/Money-Control.jpg"
+    },
+    {
+      "id": "2",
+      "projectHeading":
+        "Project Leapp, Sharekhan’s unique discount broking platform",
+      "projectContent":
+        "Top 100 traders along with Sharekhan are co-curating Project Leapp, a new age discount broking platform",
+      "projectReadMoreUrl": "",
+      "projectImageUrl": "./assets/images/Money-Control.jpg"
+    },
+    {
+      "id": "3",
+      "projectHeading":
+        "Project Leapp, Sharekhan’s unique discount broking platform",
+      "projectContent":
+        "Top 100 traders along with Sharekhan are co-curating Project Leapp, a new age discount broking platform",
+      "projectReadMoreUrl": "",
+      "projectImageUrl": "./assets/images/Money-Control.jpg"
+    }
+  ],
+  "loginDisplay": true,
+  "feedbackCountSection": true,
+  "feedbackDetail": true,
+  "meetMakers": true,
+  "projectNewsSection": true
+}
