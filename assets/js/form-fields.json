@@ -1,0 +1,939 @@
+{
+  "common_question": 
+    {
+      "title": "Hey Trader, let’s get to know each other better…",
+      "personal_data": [
+        {
+          "id": "1",
+          "question": "How do we call you?",
+          "options": null,
+          "key": "name",
+          "question_type": "string",
+          "user_answer": null,
+          "user_attempted": false
+        },
+        {
+          "id": "2",
+          "question": "How young are you?",
+          "options": null,
+          "key": "age",
+          "question_type": "number",
+          "user_answer": null,
+          "user_attempted": false
+        },
+        {
+          "id": "3",
+          "question": "Where do we connect to you?",
+          "options": null,
+          "key": "phone",
+          "question_type": "number",
+          "user_answer": null,
+          "user_attempted": false
+        },
+        {
+          "id": "4",
+          "question": "Where do we write to you?",
+          "options": null,
+          "key": "email",
+          "question_type": "string",
+          "user_answer": null,
+          "user_attempted": false
+        }
+      ]
+    }
+  ,
+  "all_user1": [
+    {
+      "id": "5",
+      "question": "How Long have You been investing / Trading for?",
+      "options": [
+        {
+          "value": "5a",
+          "label": "Less than 3 month"
+        },
+        {
+          "value": "5b",
+          "label": "3  to 12 Months"
+        },
+        {
+          "value": "5c",
+          "label": "1 to 2 years"
+        },
+        {
+          "value": "5d",
+          "label": "2 years +"
+        }
+      ],
+      "question_type": "single_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "6",
+      "question": "How will you describe Your Self ?",
+      "options": [
+        {
+          "value": "6a",
+          "label": "only invest for long term and build long term portfolio ,I don't trade"
+        },
+        {
+          "value": "6b",
+          "label": "I do day trading / Short-term Trading / Long term investing"
+        },
+        {
+          "value": "6c",
+          "label": "I am a intra day trader"
+        },
+        {
+          "value": "6d",
+          "label": "I am short term trader"
+        },
+        {
+          "value": "6e",
+          "label": "I do Complex Option Startegy"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "7",
+      "question": "My Prefer Segment / Instrument",
+      "options": [
+        {
+          "value": "7a",
+          "label": "Cash Market"
+        },
+        {
+          "value": "7b",
+          "label": "Stock Future"
+        },
+        {
+          "value": "7c",
+          "label": "Index Future"
+        },
+        {
+          "value": "7d",
+          "label": "Stock Option"
+        },
+        {
+          "value": "7e",
+          "label": "Index Option"
+        },
+        {
+          "value": "7f",
+          "label": "Commodity"
+        },
+        {
+          "value": "7g",
+          "label": "Currency"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    }
+  ],
+  "pure_investor_user": [
+    {
+      "id": "8",
+      "question": "How profitable do you consider your investing?",
+      "options": [
+        {
+          "value": "8a",
+          "label": "Not profitable at all"
+        },
+        {
+          "value": "8b",
+          "label": "up and down/hard to tell"
+        },
+        {
+          "value": "8c",
+          "label": "slightly profitable"
+        },
+        {
+          "value": "8d",
+          "label": "consistently and reasonably profitable"
+        }
+      ],
+      "question_type": "single_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "9",
+      "question": "How Much Capital You are Planing to invest Now  & what is Amount you are expecting in Next 5 years",
+      "options": null,
+      "question_type": "textarea",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "10",
+      "question": "How do you feel when you review investment opportunity?",
+      "options": [
+        {
+          "value": "10a",
+          "label": "easy going"
+        },
+        {
+          "value": "10b",
+          "label": "I don't give it too much thought"
+        },
+        {
+          "value": "10c",
+          "label": "patient"
+        },
+        {
+          "value": "10d",
+          "label": "analytical"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "11",
+      "question": "I plan to begin withdrawing money from my investments in:",
+      "options": [
+        {
+          "value": "11a",
+          "label": "Less than 3 years"
+        },
+        {
+          "value": "11b",
+          "label": "3–5 years"
+        },
+        {
+          "value": "11c",
+          "label": "6–10 years"
+        },
+        {
+          "value": "11d",
+          "label": "11 years or more"
+        }
+      ],
+      "question_type": "single_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "12",
+      "question": "Consider this scenario: Imagine that in the past Four months, the overall stock market lost 25% of its value. An individual stock investment you own also lost 25% of its value. What would you do?",
+      "options": [
+        {
+          "value": "12a",
+          "label": "Sell all of my shares"
+        },
+        {
+          "value": "12b",
+          "label": "Sell some of my shares"
+        },
+        {
+          "value": "12c",
+          "label": "Do nothing"
+        },
+        {
+          "value": "12d",
+          "label": "Buy more shares"
+        },
+        {
+          "value": "12e",
+          "label": "Look For Advise"
+        }
+      ],
+      "question_type": "single_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "13",
+      "question": "What is the approximate loss in any one-year period that you would be willing to accept before deciding to change your investments?",
+      "options": [
+        {
+          "value": "13a",
+          "label": "Less than (5%)"
+        },
+        {
+          "value": "13b",
+          "label": "(5%) to (10%)"
+        },
+        {
+          "value": "13c",
+          "label": "(10%) to (15%)"
+        },
+        {
+          "value": "13d",
+          "label": "(15%) to (25%)"
+        },
+        {
+          "value": "13e",
+          "label": "(25%) or more"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "14",
+      "question": "Preferred broker Select one",
+      "options": [
+        {
+          "value": "1a",
+          "label": "Zerodha"
+        },
+        {
+          "value": "1b",
+          "label": "SK"
+        },
+        {
+          "value": "1c",
+          "label": "ICICI"
+        },
+        {
+          "value": "1d",
+          "label": "Motilal"
+        },
+        {
+          "value": "1e",
+          "label": "Upstox"
+        },
+        {
+          "value": "1f",
+          "label": "5 Paisa"
+        },
+        {
+          "value": "1g",
+          "label": "Angel"
+        },
+        {
+          "value": "1h",
+          "label": "HDFhC"
+        },
+        {
+          "value": "1i",
+          "label": "Anand"
+        },
+        {
+          "value": "1j",
+          "label": "Rathi"
+        },
+        {
+          "value": "1k",
+          "label": "Kotak"
+        },
+        {
+          "value": "1l",
+          "label": "other"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "15",
+      "question": "DoWhat do you like about your current broker?",
+      "options": null,
+      "question_type": "textarea",
+      "select_answer": null,
+      "user_attempted": false
+    }
+  ],
+  "pure_cash_investor_user": [
+    {
+      "id": "8",
+      "question": "How long do you like to stay in a trade ?",
+      "options": [
+        {
+          "value": "8a",
+          "label": "Intraday"
+        },
+        {
+          "value": "8a",
+          "label": "Buy Today for Sell Tommrrow"
+        },
+        {
+          "value": "8c",
+          "label": "Few weeks for Short term Position"
+        },
+        {
+          "value": "8d",
+          "label": "More then 2 Years for Long term Investment"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "9",
+      "question": "How do you select stocks?",
+      "options": [
+        {
+          "value": "9a",
+          "label": "News"
+        },
+        {
+          "value": "9a",
+          "label": "Chart"
+        },
+        {
+          "value": "9c",
+          "label": "Fundamental Scanner"
+        },
+        {
+          "value": "9d",
+          "label": "Technical Scanner"
+        },
+        {
+          "value": "9e",
+          "label": "I have my own Method / Startegy / System"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "10",
+      "question": "How long have you been using the  Stocck selection method / strategy / system ",
+      "options": [
+        {
+          "value": "10a",
+          "label": "1-3 months"
+        },
+        {
+          "value": "10b",
+          "label": "4-12 months"
+        },
+        {
+          "value": "10c",
+          "label": "1-3 years"
+        },
+        {
+          "value": "10d",
+          "label": "3+ years"
+        }
+      ],
+      "question_type": "single_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "11",
+      "question": "What level of risk do you have on any individual trade ?",
+      "options": [
+        {
+          "value": "11a",
+          "label": "Not Define"
+        },
+        {
+          "value": "11b",
+          "label": "Depend on each trade"
+        },
+        {
+          "value": "11c",
+          "label": "2% or less"
+        },
+        {
+          "value": "11b",
+          "label": "2% or less"
+        },
+        {
+          "value": "11d",
+          "label": "2% or less"
+        }
+      ],
+      "question_type": "single_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "12",
+      "question": "What is your ultimate trading goal?",
+      "options": [
+        {
+          "value": "12a",
+          "label": "I want to trade full-time, relying on nothing, but trading for my sole income"
+        },
+        {
+          "value": "12b",
+          "label": "Make enough money to go on end of year holiday"
+        },
+        {
+          "value": "12c",
+          "label": "To Make Big Money"
+        },
+        {
+          "value": "12d",
+          "label": "To Make Extra Income above my Salary / Business Income"
+        }
+      ],
+      "question_type": "single_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "13",
+      "question": "Preferred broker Select one",
+      "options": [
+        {
+          "value": "1a",
+          "label": "Zerodha"
+        },
+        {
+          "value": "1b",
+          "label": "SK"
+        },
+        {
+          "value": "1c",
+          "label": "ICICI"
+        },
+        {
+          "value": "1d",
+          "label": "Motilal"
+        },
+        {
+          "value": "1e",
+          "label": "Upstox"
+        },
+        {
+          "value": "1f",
+          "label": "5 Paisa"
+        },
+        {
+          "value": "1g",
+          "label": "Angel"
+        },
+        {
+          "value": "1h",
+          "label": "HDFhC"
+        },
+        {
+          "value": "1i",
+          "label": "Anand"
+        },
+        {
+          "value": "1j",
+          "label": "Rathi"
+        },
+        {
+          "value": "1k",
+          "label": "Kotak"
+        },
+        {
+          "value": "1l",
+          "label": "other"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "14",
+      "question": "DoWhat do you like about your current broker?",
+      "options": null,
+      "question_type": "textarea",
+      "select_answer": null,
+      "user_attempted": false
+    }
+  ],
+  "f&0_investor_user": [
+    {
+      "id": "8",
+      "question": "What is your biggest trading fear?",
+      "options": [
+        {
+          "value": "8a",
+          "label": "Not having orders executed by broker"
+        },
+        {
+          "value": "8b",
+          "label": "Being wrong in long or short"
+        },
+        {
+          "value": "8c",
+          "label": "Missing out on a big winning trade"
+        },
+        {
+          "value": "8d",
+          "label": "Stop loss not triggered by system"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "9",
+      "question": "How do you select stocks?",
+      "options": [
+        {
+          "value": "9a",
+          "label": "No defined amount"
+        },
+        {
+          "value": "9b",
+          "label": "it varies on each trade"
+        },
+        {
+          "value": "9c",
+          "label": "2% or less"
+        },
+        {
+          "value": "9d",
+          "label": "2% to 4%"
+        }
+      ],
+      "question_type": "single_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "10",
+      "question": "How disciplined do you think you are ?",
+      "options": [
+        {
+          "value": "10a",
+          "label": "Not disciplined"
+        },
+        {
+          "value": "10b",
+          "label": "Not bad but it varies from day to day"
+        },
+        {
+          "value": "10c",
+          "label": "1-3 years"
+        },
+        {
+          "value": "10d",
+          "label": "Disciplined as I stick  to  plan"
+        }
+      ],
+      "question_type": "single_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "11",
+      "question": "How confident are you that you will make a reasonable profit over the next 12 months ",
+      "options": [
+        {
+          "value": "11a",
+          "label": "Not at all confident"
+        },
+        {
+          "value": "11b",
+          "label": "Moderately confident"
+        },
+        {
+          "value": "11c",
+          "label": "very confident"
+        },
+        {
+          "value": "11d",
+          "label": "No Idea"
+        }
+      ],
+      "question_type": "single_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "12",
+      "question": "What is your method for stock selection ?",
+      "options": [
+        {
+          "value": "12a",
+          "label": "News"
+        },
+        {
+          "value": "12b",
+          "label": "Chart"
+        },
+        {
+          "value": "12c",
+          "label": "Future & Option Scanner"
+        },
+        {
+          "value": "12d",
+          "label": "Technical Scanner"
+        },
+        {
+          "value": "12e",
+          "label": "I have my own Method / Startegy / System"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "13",
+      "question": "Preferred broker Select one",
+      "options": [
+        {
+          "value": "1a",
+          "label": "Zerodha"
+        },
+        {
+          "value": "1b",
+          "label": "SK"
+        },
+        {
+          "value": "1c",
+          "label": "ICICI"
+        },
+        {
+          "value": "1d",
+          "label": "Motilal"
+        },
+        {
+          "value": "1e",
+          "label": "Upstox"
+        },
+        {
+          "value": "1f",
+          "label": "5 Paisa"
+        },
+        {
+          "value": "1g",
+          "label": "Angel"
+        },
+        {
+          "value": "1h",
+          "label": "HDFhC"
+        },
+        {
+          "value": "1i",
+          "label": "Anand"
+        },
+        {
+          "value": "1j",
+          "label": "Rathi"
+        },
+        {
+          "value": "1k",
+          "label": "Kotak"
+        },
+        {
+          "value": "1l",
+          "label": "other"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "14",
+      "question": "DoWhat do you like about your current broker?",
+      "options": null,
+      "question_type": "textarea",
+      "select_answer": null,
+      "user_attempted": false
+    }
+  ],
+  "option_investor_user": [
+    {
+      "id": "8",
+      "question": "How many trading strategies do you use ?",
+      "options": [
+        {
+          "value": "8a",
+          "label": "0"
+        },
+        {
+          "value": "8b",
+          "label": "1 or 2"
+        },
+        {
+          "value": "8c",
+          "label": "3 to 4"
+        },
+        {
+          "value": "8d",
+          "label": "5 or more"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "9",
+      "question": "Do you keep a record of every trade that you make?",
+      "options": [
+        {
+          "value": "9a",
+          "label": "Yes, always"
+        },
+        {
+          "value": "9b",
+          "label": "Some Time Yes"
+        },
+        {
+          "value": "9c",
+          "label": "occasionally"
+        },
+        {
+          "value": "9d",
+          "label": "no, never"
+        }
+      ],
+      "question_type": "single_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "10",
+      "question": "Do you think it is easy to make money trading in Options?",
+      "options": [
+        {
+          "value": "10a",
+          "label": "very difficult"
+        },
+        {
+          "value": "10b",
+          "label": "easy if you know what you are doing"
+        },
+        {
+          "value": "10c",
+          "label": "easy if you have some luck"
+        },
+        {
+          "value": "10d",
+          "label": "very easy"
+        }
+      ],
+      "question_type": "single_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "11",
+      "question": "What is Your preferred Option Strategy for Bull market ?",
+      "options": [
+        {
+          "value": "11a",
+          "label": "Long Call Strategy"
+        },
+        {
+          "value": "11b",
+          "label": "Short Put Strategy"
+        },
+        {
+          "value": "11c",
+          "label": "Bull Put Spread"
+        },
+        {
+          "value": "11d",
+          "label": "Covered Call Strategy"
+        }
+      ],
+      "question_type": "single_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "12",
+      "question": "What is your method for stock selection ?",
+      "options": [
+        {
+          "value": "12a",
+          "label": "News"
+        },
+        {
+          "value": "12b",
+          "label": "Chart"
+        },
+        {
+          "value": "12c",
+          "label": "Future & Option Scanner"
+        },
+        {
+          "value": "12d",
+          "label": "Technical Scanner"
+        },
+        {
+          "value": "12e",
+          "label": "I have my own Method / Startegy / System"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "13",
+      "question": "Preferred broker Select one",
+      "options": [
+        {
+          "value": "1a",
+          "label": "Zerodha"
+        },
+        {
+          "value": "1b",
+          "label": "SK"
+        },
+        {
+          "value": "1c",
+          "label": "ICICI"
+        },
+        {
+          "value": "1d",
+          "label": "Motilal"
+        },
+        {
+          "value": "1e",
+          "label": "Upstox"
+        },
+        {
+          "value": "1f",
+          "label": "5 Paisa"
+        },
+        {
+          "value": "1g",
+          "label": "Angel"
+        },
+        {
+          "value": "1h",
+          "label": "HDFhC"
+        },
+        {
+          "value": "1i",
+          "label": "Anand"
+        },
+        {
+          "value": "1j",
+          "label": "Rathi"
+        },
+        {
+          "value": "1k",
+          "label": "Kotak"
+        },
+        {
+          "value": "1l",
+          "label": "other"
+        }
+      ],
+      "question_type": "multiple_selection",
+      "select_answer": null,
+      "user_attempted": false
+    },
+    {
+      "id": "14",
+      "question": "DoWhat do you like about your current broker?",
+      "options": null,
+      "question_type": "textarea",
+      "select_answer": null,
+      "user_attempted": false
+    }
+  ],
+  "is_completed": false
+}
