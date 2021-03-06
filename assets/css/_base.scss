@@ -1,0 +1,92 @@
+//Base file
+$primary_color: #3c5061;
+$href_color: #526771;
+$font_header: 15px;
+$brand_color: #DFC822;
+$text_color: #4d4d4d;
+// Define the breakpoints
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+$breakpoint-vsmall: 320px;
+$breakpoint-small: 480px;
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+$breakpoint-vmed-small: 481px;
+$breakpoint-med-small: 767px;
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+$breakpoint-vmed: 768px;
+$breakpoint-med: 1023px;
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+$breakpoint-vlarge: 1024px;
+$breakpoint-large: 1280px;
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+$breakpoint-high: 1281px;
+@mixin orientation($direction) {
+    $orientation-landscape: "(orientation:landscape)";
+    $orientation-portrait: "(orientation:portrait)";
+    @if $direction==landscape {
+        @media #{$orientation-landscape} {
+            @content;
+        }
+    }
+    @if $direction==portrait {
+        @media #{$orientation-portrait} {
+            @content;
+        }
+    }
+}
+
+//use@include screen(large) {width: 20%;}
+@mixin screen($size, $type1: min, $type2: max, $pixels: $breakpoint-small) {
+    @if $size=='small' {
+        @media screen and ($type1 + -width: $breakpoint-vsmall) and ($type2 + -width: $breakpoint-small) {
+            @content;
+        }
+    }
+    @else if $size=='med-small' {
+        @media screen and ($type1 + -width: $breakpoint-vmed-small) and ($type2 + -width: $breakpoint-med-small) {
+            @content;
+        }
+    }
+    @else if $size=='med' {
+        @media screen and ($type1 + -width: $breakpoint-vmed) and ($type2 + -width: $breakpoint-med) {
+            @content;
+        }
+    }
+    @else if $size=='large' {
+        @media screen and ($type1 + -width: $breakpoint-vlarge) and ($type2 + -width: $breakpoint-large) {
+            @content;
+        }
+    }
+    @else if $size=='high' {
+        @media screen and ($type1 + -width: $breakpoint-high + px) {
+            @content;
+        }
+    }
+    @else {
+        @content;
+    }
+}

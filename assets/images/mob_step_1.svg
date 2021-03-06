@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="34" viewBox="0 0 33 34">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;stroke:#000;stroke-width:2px}.cls-2{fill:#ebd619;opacity:.5}.cls-3{fill:#1a1818;font-size:12px;font-family:Poppins-SemiBold,Poppins SemiBold;font-weight:600}.cls-4{stroke:none}.cls-5{fill:none}
+        </style>
+    </defs>
+    <g id="_1" data-name="1" transform="translate(-.079 -.055)">
+        <g id="Group_66" data-name="Group 66">
+            <g id="Ellipse_8" class="cls-1" data-name="Ellipse 8" transform="translate(.079 .055)">
+                <ellipse cx="16.5" cy="17" class="cls-4" rx="16.5" ry="17"/>
+                <ellipse cx="16.5" cy="17" class="cls-5" rx="15.5" ry="16"/>
+            </g>
+            <circle id="Ellipse_9" cx="13" cy="13" r="13" class="cls-2" data-name="Ellipse 9" transform="translate(6.079 5.055)"/>
+            <text id="_1-2" class="cls-3" data-name="1" transform="translate(17.079 20.055)">
+                <tspan x="-1.98" y="0">1</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

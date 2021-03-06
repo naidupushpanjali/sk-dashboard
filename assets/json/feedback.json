@@ -1,0 +1,181 @@
+{
+  "welcomePerson": "Pushpa",
+  "questionaire": [
+    {
+      "id": "1",
+      "question":
+        "We’ve built a comprehensive report for you, Rate and let us know what you feel about it.",
+      "image_web": "./assets/images/Illustration-1 (1).svg",
+      "image_mobile": "./assets/images/mob-2.svg"
+    },
+    {
+      "id": "2",
+      "question": "test-2",
+      "image_web": "./assets/images/Group 712.svg",
+      "image_mobile": "123.png"
+    },
+    {
+      "id": "3",
+      "question":
+        "We’ve built a comprehensive report for you, Rate and let us know what you feel about it 3.",
+      "image_web": "./assets/images/Group 676.svg",
+      "image_mobile": "123.png"
+    }
+  ],
+  "user_rating": [
+    {
+      "id": "1",
+      "rating": "1",
+      "count": "200",
+      "ratingTitle":"Improve"
+    },
+    {
+      "id": "2",
+      "rating": "2",
+      "count": "300",
+      "ratingTitle":"Better"
+    },
+    {
+      "id": "3",
+      "rating": "3",
+      "count": "400",
+      "ratingTitle":"Satisfactory"
+    },
+    {
+      "id": "4",
+      "rating": "4",
+      "count": "500",
+      "ratingTitle":"Good"
+    },
+    {
+      "id": "5",
+      "rating": "5",
+      "count": "600",
+      "ratingTitle":"Excellent"
+    }
+  ],
+  "feedback_via_questionnaire": [
+    {
+        "id": "1",
+        "category": "Reports",
+        "suggestion": "Lorem Ipsum",
+        "rating": "1",
+        "description": "Lorem ipsum",
+        "date": "12-2-2020"
+    },
+    {
+        "id": "2",
+        "category": "Reports",
+        "suggestion": "Lorem Ipsum",
+        "rating": "2",
+        "description": "Lorem ipsum",
+        "date": "12-2-2020"
+    },
+    {
+        "id": "3",
+        "category": "Reports",
+        "suggestion": "Lorem Ipsum",
+        "rating": "3",
+        "description": "Lorem ipsum",
+        "date": "12-2-2020"
+    },
+    {
+        "id": "4",
+        "category": "Reports",
+        "suggestion": "Lorem Ipsum",
+        "rating": "4",
+        "description": "Lorem ipsum",
+        "date": "12-2-2020"
+    },
+    {
+        "id": "5",
+        "category": "Reports",
+        "suggestion": "Lorem Ipsum",
+        "rating": "5",
+        "description": "Lorem ipsum",
+        "date": "12-2-2020"
+    },
+    {
+        "id": "6",
+        "category": "Reports",
+        "suggestion": "Lorem Ipsum",
+        "rating": "4",
+        "description": "Lorem ipsum",
+        "date": "12-2-2020"
+    },
+    {
+        "id": "7",
+        "category": "Reports",
+        "suggestion": "Lorem Ipsum",
+        "rating": "3",
+        "description": "Lorem ipsum",
+        "date": "12-2-2020"
+    },
+    {
+        "id": "8",
+        "category": "Reports",
+        "suggestion": "Lorem Ipsum",
+        "rating": "3",
+        "description": "Lorem ipsum",
+        "date": "12-2-2020"
+    },
+    {
+        "id": "9",
+        "category": "Reports",
+        "suggestion": "Lorem Ipsum",
+        "rating": "3",
+        "description": "Lorem ipsum",
+        "date": "12-2-2020"
+    },
+    {
+        "id": "10",
+        "category": "Reports",
+        "suggestion": "Lorem Ipsum",
+        "rating": "3",
+        "description": "Lorem ipsum",
+        "date": "12-2-2020"
+    },
+    {
+        "id": "11",
+        "category": "Reports",
+        "suggestion": "Lorem Ipsum",
+        "rating": "3",
+        "description": "Lorem ipsum",
+        "date": "12-2-2020"
+    },
+    {
+        "id": "12",
+        "category": "Reports",
+        "suggestion": "Lorem Ipsum",
+        "rating": "3",
+        "description": "Lorem ipsum",
+        "date": "12-2-2020"
+    }
+],
+"feedback_via_chat":[
+    {
+        "id":"1",
+        "category":"margin",
+        "suggestion": "Lorem ipsum",
+        "rating": "2",
+        "date": "12-2-2020"
+    },
+    {
+        "id":"2",
+        "category":"margin",
+        "suggestion": "Lorem ipsum",
+        "rating": "2",
+        "date": "12-2-2020"
+    }
+],
+"new_ideas": [
+    {
+        "id": "1",
+        "idea": "Lorem Ipsum text"
+    },
+    {
+        "id": "2",
+        "idea": "Lorem Ipsum text"
+    }
+]
+}
